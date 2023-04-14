@@ -5,8 +5,7 @@
 <div class=" container">
     <div class="row">
         <div class="col-12">
-            <button class="btn btn-primary">List</button>
-            <!-- <?php echo url("list/index.php"); ?> -->
+            <button class="btn btn-primary">About</button>
         </div>
     </div>
 </div>
