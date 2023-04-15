@@ -17,8 +17,8 @@
             List
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="<?= url("list/create.php") ?>">Create List</a></li>
-            <li><a class="dropdown-item" href="<?= url("list/index.php") ?>">List</a></li>
+            <li><a class="dropdown-item" href="<?= url("list-create.php") ?>">Create List</a></li>
+            <li><a class="dropdown-item" href="<?= url("list-index.php") ?>">List</a></li>
           </ul>
         </li>
         <li class="nav-item">
