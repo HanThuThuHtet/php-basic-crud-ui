@@ -6,6 +6,17 @@
     <div class="row">
         <div class="col-12 mx-auto">
             <div class=" border  bg-light rounded p-5 m-5">
+
+                <!-- Start Alert Message -->
+                <?php
+                    if(!empty($_SESSION["status"])){
+                        echo alert($_SESSION["status"]["message"]);
+                        $_SESSION["status"] = null;
+                        
+                    }
+                ?>
+                <!-- End Alert Message -->
+
                 <div class="row p-2 justify-content-between align-items-center">
                     <div class="col-4"><h2>All Debt List</h2></div>
                     <div class="col-4 text-end"><a href="./list-create.php" class="btn btn-success"> + Create</a></div>

@@ -20,7 +20,11 @@
                         $sql = "INSERT INTO my (name,debt) VALUES ('$name',$debt)";
                         if(mysqli_query($connect,$sql)){
                             // echo "Created Successfully";
-                             echo alert("Created Successfully","success");
+                            //echo alert("Created Successfully","success");
+                            $_SESSION["status"] = [
+                                'message' => "List created successfully"
+                            ];
+                            header("Location:list-index.php");
                         }
                     }
 

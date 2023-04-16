@@ -1,5 +1,8 @@
-<?php require_once "core/connection.php" ?>
-<?php require_once "core/functions.php" ?>
+<?php 
+    session_start();
+    require_once "core/connection.php"; 
+    require_once "core/functions.php"; 
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
